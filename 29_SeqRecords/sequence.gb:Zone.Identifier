@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.ncbi.nlm.nih.gov/nuccore/NC_000011.10?report=genbank&from=31789026&to=31817961&strand=true
+HostUrl=https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?tool=portal&save=file&log$=seqview&db=nuccore&report=genbank&id=568815587&from=31789026&to=31817961&strand=on&conwithfeat=on&basic_feat=on&withparts=on&hide-cdd=on&ncbi_phid=null
