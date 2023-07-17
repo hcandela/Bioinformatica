@@ -1,0 +1,1327 @@
+LOCUS       NC_000019              13785 bp    DNA     linear   CON 20-MAR-2023
+DEFINITION  Homo sapiens chromosome 19, GRCh38.p14 Primary Assembly.
+ACCESSION   NC_000019 REGION: 18563766..18577550
+VERSION     NC_000019.10
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.40
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 13785)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   2  (bases 1 to 13785)
+  AUTHORS   Grimwood,J., Gordon,L.A., Olsen,A., Terry,A., Schmutz,J.,
+            Lamerdin,J., Hellsten,U., Goodstein,D., Couronne,O.,
+            Tran-Gyamfi,M., Aerts,A., Altherr,M., Ashworth,L., Bajorek,E.,
+            Black,S., Branscomb,E., Caenepeel,S., Carrano,A., Caoile,C.,
+            Chan,Y.M., Christensen,M., Cleland,C.A., Copeland,A., Dalin,E.,
+            Dehal,P., Denys,M., Detter,J.C., Escobar,J., Flowers,D.,
+            Fotopulos,D., Garcia,C., Georgescu,A.M., Glavina,T., Gomez,M.,
+            Gonzales,E., Groza,M., Hammon,N., Hawkins,T., Haydu,L., Ho,I.,
+            Huang,W., Israni,S., Jett,J., Kadner,K., Kimball,H., Kobayashi,A.,
+            Larionov,V., Leem,S.H., Lopez,F., Lou,Y., Lowry,S., Malfatti,S.,
+            Martinez,D., McCready,P., Medina,C., Morgan,J., Nelson,K.,
+            Nolan,M., Ovcharenko,I., Pitluck,S., Pollard,M., Popkie,A.P.,
+            Predki,P., Quan,G., Ramirez,L., Rash,S., Retterer,J., Rodriguez,A.,
+            Rogers,S., Salamov,A., Salazar,A., She,X., Smith,D., Slezak,T.,
+            Solovyev,V., Thayer,N., Tice,H., Tsai,M., Ustaszewska,A., Vo,N.,
+            Wagner,M., Wheeler,J., Wu,K., Xie,G., Yang,J., Dubchak,I.,
+            Furey,T.S., DeJong,P., Dickson,M., Gordon,D., Eichler,E.E.,
+            Pennacchio,L.A., Richardson,P., Stubbs,L., Rokhsar,D.S.,
+            Myers,R.M., Rubin,E.M. and Lucas,S.M.
+  TITLE     The DNA sequence and biology of human chromosome 19
+  JOURNAL   Nature 428 (6982), 529-535 (2004)
+   PUBMED   15057824
+REFERENCE   3  (bases 1 to 13785)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000681.2.
+            
+            On Feb 3, 2014 this sequence version replaced NC_000019.9.
+            Assembly Name: GRCh38.p14 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: GCF_000001405.40-RS_2023_03
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           RefSeqFE; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 03/15/2023
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..13785
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+     gene            <1..5613
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="KxDL motif containing 1; Derived by automated
+                     computational analysis using gene prediction method:
+                     BestRefSeq,Gnomon."
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..4914,5065..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X3"
+                     /experiment="COORDINATES: cap analysis [ECO:0007248] and
+                     polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_017027281.2"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..4914,5065..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X5"
+                     /experiment="COORDINATES: cap analysis [ECO:0007248] and
+                     polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_047439389.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X1"
+                     /experiment="COORDINATES: cap analysis [ECO:0007248]"
+                     /transcript_id="XM_011528272.3"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant 3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001171949.2"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..4914,5065..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X6"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_047439390.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001171948.2"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..4914,5065..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X4"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_047439388.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant 2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_024069.4"
+                     /db_xref="Ensembl:ENST00000222307.9"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,3367..3413,4637..4914,5065..5613)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X2"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_006722883.3"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,1369..1444)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X8"
+                     /experiment="COORDINATES: cap analysis [ECO:0007248]"
+                     /transcript_id="XM_017027282.2"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     mRNA            join(<1104..1256,1369..1444)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /product="KxDL motif containing 1, transcript variant X7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 ESTs, 3 long SRA reads, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 78 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_005260073.5"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_016882770.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_047295344.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_047295345.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_047295346.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1"
+                     /protein_id="NP_001165419.1"
+                     /db_xref="CCDS:CCDS12381.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     misc_feature    join(3395..3413,4637..4863)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BQD3.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1"
+                     /protein_id="NP_001165420.1"
+                     /db_xref="CCDS:CCDS12381.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     misc_feature    join(3395..3413,4637..4863)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BQD3.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1"
+                     /protein_id="NP_076974.2"
+                     /db_xref="CCDS:CCDS12381.1"
+                     /db_xref="Ensembl:ENSP00000222307.3"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     misc_feature    join(3395..3413,4637..4863)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9BQD3.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_006722946.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,3367..3413,4637..4866)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X1"
+                     /protein_id="XP_011526574.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRTLKGKLARQHPEAFSHI
+                     PEASFLEEEDEDPIPPSTTTTIATSEQSTGSCDTSPDTVSPSLSPGFEDLSHVQPGSP
+                     AINGRSQTDDEEMTGE"
+     CDS             join(<1104..1256,1369..1429)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X2"
+                     /protein_id="XP_016882771.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRLHCALKCLGQFQPWDKI
+                     LT"
+     CDS             join(<1104..1256,1369..1429)
+                     /gene="KXD1"
+                     /gene_synonym="BORCS4; C10orf50; C19orf50; KXDL; MST096;
+                     MSTP096"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="kxDL motif-containing protein 1 isoform X2"
+                     /protein_id="XP_005260130.1"
+                     /db_xref="GeneID:79036"
+                     /db_xref="HGNC:HGNC:28420"
+                     /db_xref="MIM:615178"
+                     /translation="MDLPDSASRVFCGRILSMVNTDDVNAIILAQKNMLDRFEKTNEM
+                     LLNFNNLSSARLQQMSERFLHHTRTLVEMKRDLDSIFRRIRLHCALKCLGQFQPWDKI
+                     LT"
+     gene            1..13785
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq,Gnomon."
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(1..14,9528..9638,9897..9983,11105..11476)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant X5"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_005260054.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     misc_feature    7426..8102
+                     /standard_name="H3K27ac-H3K4me1 hESC enhancer
+                     GRCh37_chr19:18682001-18682677"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127890884"
+     regulatory      7426..8102
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K27ac-H3K4me1 hESC enhancer
+                     chr19:18682001-18682677 (GRCh37/hg19 assembly
+                     coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in naive H9 embyronic stem cells
+                     {active_cell/tissue: H9 hESC(naive)}"
+                     /db_xref="GeneID:127890884"
+     mRNA            join(7959..8071,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321017.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8842,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321018.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8414,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321020.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8380,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321019.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8144,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001033930.3"
+                     /db_xref="Ensembl:ENST00000442744.7"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8144,9528..9638,11105..11207,11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321022.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8122,9528..9638,9897..9983,11105..11207,
+                     11292..13785)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_003333.5"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8842,9528..9638,9897..9983,11105..11476)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant X4"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_006722871.3"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8144,9528..9638,9897..9983,11105..11476)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant X2"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_005260052.3"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(8092..8122,9528..9638,9897..9983,11105..11476)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant X3"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_005260053.4"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     misc_feature    8781..9457
+                     /standard_name="H3K27ac hESC enhancer
+                     GRCh37_chr19:18683356-18684032"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127890885"
+     regulatory      8781..9457
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K27ac hESC enhancer chr19:18683356-18684032
+                     (GRCh37/hg19 assembly coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in primed H9 embyronic stem cells
+                     {active_cell/tissue: H9 hESC(primed)}"
+                     /db_xref="GeneID:127890885"
+     mRNA            join(9075..9195,9528..9638,9897..9983,11105..11207,
+                     11292..13695)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant 7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001321021.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     mRNA            join(9075..9195,9528..9638,9897..9983,11105..11476)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="ubiquitin A-52 residue ribosomal protein fusion
+                     product 1, transcript variant X1"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+                     /transcript_id="XM_017027198.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+     CDS             join(9183..9195,9528..9638,9897..9983,11105..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform X1"
+                     /protein_id="XP_016882687.2"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MMPKDANMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIP
+                     PDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMI
+                     CRKYVCSDAWGAVGAAGVGVCPHPPLLSLCRCYARLHPRAVNCRKKKCGHTNNLRPKK
+                     KVK"
+     CDS             join(9183..9195,9528..9638,9897..9983,11105..11207,
+                     11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 2 is encoded by transcript variant 7;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 2"
+                     /protein_id="NP_001307950.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MMPKDANMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIP
+                     PDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMI
+                     CRKCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+     CDS             join(9536..9638,9897..9983,11105..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform X2"
+                     /protein_id="XP_005260109.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKYVCS
+                     DAWGAVGAAGVGVCPHPPLLSLCRCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+     CDS             join(9536..9638,9897..9983,11105..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform X2"
+                     /protein_id="XP_005260110.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKYVCS
+                     DAWGAVGAAGVGVCPHPPLLSLCRCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+     CDS             join(9536..9638,9897..9983,11105..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform X2"
+                     /protein_id="XP_005260111.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKYVCS
+                     DAWGAVGAAGVGVCPHPPLLSLCRCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+     CDS             join(9536..9638,9897..9983,11105..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform X2"
+                     /protein_id="XP_006722934.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKYVCS
+                     DAWGAVGAAGVGVCPHPPLLSLCRCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 3; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_001307946.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 4; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_001307947.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 5; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_001307948.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 6; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_001307949.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 2; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_003324.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,9897..9983,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 1; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 1
+                     precursor"
+                     /protein_id="NP_001029102.1"
+                     /db_xref="CCDS:CCDS12382.1"
+                     /db_xref="Ensembl:ENSP00000388107.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGIIEPSLRQLAQKYNCDKMICRKCYAR
+                     LHPRAVNCRKKKCGHTNNLRPKKKVK"
+     mat_peptide     join(9536..9638,9897..9983,11105..11142)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Ubiquitin. /id=PRO_0000396433"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    9953..9955
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11107..11109
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Phosphoserine, by PINK1.
+                     /evidence=ECO:0000269|PubMed:24660806,
+                     ECO:0000269|PubMed:24751536, ECO:0000269|PubMed:24784582,
+                     ECO:0000269|PubMed:25474007, ECO:0000269|PubMed:25527291;
+                     propagated from UniProtKB/Swiss-Prot (P62987.2);
+                     phosphorylation site"
+     misc_feature    11116..11118
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Essential for function; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     misc_feature    11128..11130
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="Interacts with activating enzyme; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); other site"
+     mat_peptide     join(11143..11207,11292..11382)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /product="Large ribosomal subunit protein eL40.
+                     /id=PRO_0000396434"
+                     /note="propagated from UniProtKB/Swiss-Prot (P62987.2)"
+     misc_feature    join(11206..11207,11292)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="N6,N6,N6-trimethyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P62986; propagated from
+                     UniProtKB/Swiss-Prot (P62987.2); methylation site"
+     CDS             join(9536..9638,11105..11207,11292..11385)
+                     /gene="UBA52"
+                     /gene_synonym="CEP52; HUBCEP52; L40; RPL40"
+                     /note="isoform 3 is encoded by transcript variant 8;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="ubiquitin-60S ribosomal protein L40 isoform 3"
+                     /protein_id="NP_001307951.1"
+                     /db_xref="GeneID:7311"
+                     /db_xref="HGNC:HGNC:12458"
+                     /db_xref="MIM:191321"
+                     /translation="MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEESTLHLVLRL
+                     RGGIIEPSLRQLAQKYNCDKMICRKCYARLHPRAVNCRKKKCGHTNNLRPKKKVK"
+ORIGIN      
+        1 tgctgggatt acaggtgtga gccaccgtgc ccggccctga tttttttatt tttagaagag
+       61 atgtggtttc accatgttgg ccagacctca agtgatccac cctgcctcaa cctcctaaag
+      121 tgctggtctc cttttttttg agacatagtt tcgcactgtc acccaggctg gagtgcagtg
+      181 gcgcaatctc aggtcactgc tatgtccgcc tcccgggttc aaatgattct cctgcctcag
+      241 cctcccgagt agctgggatt acaggcgccc gccaccatgc ccagccaatt tttgtatttt
+      301 tggtagagac gcggttttcc catgttggca aggctggtct cgaactcctg acctcatgat
+      361 ctgcctgcct tgacctccca aagcgctgga attgcaggca tgagccccca tgcccggctg
+      421 gtctcctgtt tttttaggtc agattcagac ctggctctgg gaaacttcta gactgagggg
+      481 agacaaagcc agacacagac cctcctggcc ctatggtgtc agggctgggc cagaggaaca
+      541 acctggggct agtggaatta aaagagtctg attgggccag gcacgatggc tcactcctgt
+      601 aatcccagca ctttgggagg ccgaggtggg tggatcacga ggtcaggaga tcgagaccat
+      661 cctggctaac ctggtgaaac ctcgtctcta ctaaaaatac aaaaaattag ccaggcatgg
+      721 tggcggacgc ctgtagtccc agctatactc gggaggctga ggcaggagaa tggtatgaac
+      781 ctgggagacg gagcttgcag tgagccgaga tcgcgccact gcactccagc ctgggtgacg
+      841 aagcaagact ctgtctcaaa aaaagtctga ctgaatagag gtagacaagg ctacatgaga
+      901 aggacacact tgagtagggt tttgaaggtt gaataggagt ttgctaggtg gctcaaagag
+      961 taggtagaac tctgcaggac aagggaacag cccatgcaaa ggttgtgaag caggcaaggg
+     1021 cttggcatga acagtcttct gggccaggtt gggcagggcc ctgaagctgg gcagtgaagc
+     1081 tcatgccctc tctccaccat caggctggac cgctttgaga agaccaatga gatgctgctc
+     1141 aacttcaaca acctgtccag tgcccgcctg cagcagatga gcgaacgctt cctgcaccac
+     1201 acgaggaccc tagtagagat gaaacgggac ctggacagca tcttccgccg tatcaggtgg
+     1261 gtgctcagtg ccaccccagc ccagctgacc tctgcctcca cctccccatc tgagcctcag
+     1321 tttccttcac ataccagggt aaagggagat ttctgtttgt tttacaaggc ttcactgcgc
+     1381 acttaagtgt ctgggacaat tccaaccctg ggataaaatc ttgacgtaag tttatttact
+     1441 gattgattaa ttgatcgaga cagagttttt tttttttttt tggagacgga gtctcgctct
+     1501 gttgcccagg ctggagtgca gtggcgcgac ctcagctcac tgcaagctcc gcttcccggg
+     1561 ctcacgccat tctcctgcct cagtctccgg agtagctggg attacaggtg cctaccacca
+     1621 cgcctggaga attttttgta tttttagtgg agatggggtt tcaccgtgtt agtagtcagg
+     1681 atggtctcga tctcctgacc tcgtgatcca gccgccttgg cctcccaaag tgctgggatt
+     1741 acaggcgtga gccactgcgc ccggccgaga cagagtcttg atctgtggcc ctggctggag
+     1801 tgcagtggcg tgatcttggc tcactgcaac ctctgcctcc tggattcaag cgattcttgt
+     1861 gcttcagcct tctgagtagc tgggtctaca gacatactgt accacaccca gctaattttt
+     1921 gttgttgttg ttttattttt gaggtggagt cttgctctgt cgcccaggct ggagtgcagt
+     1981 ggtgcaatgt cagctcactg caacctccgc ctcccaggtt caagcgattc tcctgcttca
+     2041 gcctcctgag tagctgggac tacaggcgca tgctgccacg cccagctgat tttttgtatt
+     2101 ttagtagaga cgagatttca ccgtgttgcc caggctagtc tcaaactcct gagctccagc
+     2161 actctgcctg cctcggcctc ctaaagtgtt gggattacag gtgtgagcct aatttttgta
+     2221 ttttgtgtaa tttttgtatt tttttagtag agacagggtt tccccatgtt ggccaggctc
+     2281 atctcgaagt cctggcctca gatgatccat ccacctcgac ctcccaaagt gctgggatta
+     2341 taggcatgag ccatcatgcc cagccttgca gtttatttat tcttaaaaaa tgtaacacag
+     2401 tgcggctggg cgaggtggcc catgcctgta atcccagcac tttgggaggc cgaggcaggc
+     2461 ggatcacgag gtcaggagat caagaccatc ccggctaaca tggtgaaacc ccgtctctac
+     2521 taaaaataca aaaaatacta aaaatacaaa aaattagctg ggcgtggtgg tgggcgtctg
+     2581 tattgccagc tactcgggag gctgaggcag gagaatggca tgaacccagg aggtgagccg
+     2641 agatcgcgcc actgcactca agcctgggcg acagagcgag actccgtctc aaaaaaaaaa
+     2701 aaaaagtaac atagtgctag acacataatg aaaaggcagg aatggctggg cacagtggct
+     2761 catgcctgta atcccagcag ttagggaggc tgacgcaggc agatcacctg aggtcagaag
+     2821 tttgagacca gcctggccaa catgatgaaa tcccgtctct actaaaaata caaaaaaatc
+     2881 agctgagcat ggtggcacgt gcctgtaatc ccagctactt gggaggctga gggaggacaa
+     2941 tcatgtgaat ccggaaggtg gaggttgcag tgagccagga tggcaccact gcactccacc
+     3001 ctgggcgaca gagtgagatt ctgtctcaaa aaaaaaaaaa aaatttatca gagaagaggc
+     3061 cacatgtaag aagcagcctc gcagggggag cccccagcca gtgcctaggc tcagagcacc
+     3121 cagagtctaa ctagttgggg gttggtgcct accttggggc tggaggccgg ctggtgggcg
+     3181 actgtcaggg ccgtggctgc tgggccgagc acctagagag agtgaagatg tgaggtgatg
+     3241 aacagtgtgg gggttctcac tcccgtctcc ccttgccctc agctggcagc aggggcttgt
+     3301 ggccagcacc aggcccagcc tacctgctca gcaggttaag ccctgtgtgc cttctctccc
+     3361 ctgcaggacg ctgaaaggga aactggccag gcagcaccca gaggccttca gccgtaagtg
+     3421 tcacgcaggg ttcctgctcc cgagcacgtc agcactctcc acccagggca ggcttctgga
+     3481 aggccacctt ggggcctgat actgagacca ggctgtaatg ggcagtgggt ctggggaaac
+     3541 ctggggtggg ggcagggtca gggtgctggc ctggtcctgt cagcagctgg cagagtgggc
+     3601 actaggacgg gagtccgtgc cccgtgggga ggccgcacag gagaatgtgg ataagcagca
+     3661 tgacaatcct tatccctgtg tgcattatga gccatctcag aacagagcac gggctcatgt
+     3721 gacaccagcc ccgacatcgt ctcgccttcc ctgagcccca gcttcgagga tctgtcccat
+     3781 gtccagctgt tacccacagt cacccatggg gtggggactg tgagtatcac cgtttcatgg
+     3841 agagggaaac agaggcccag aggggcagga cttgagttcg catctgtctg gctagagagc
+     3901 tcgcgtgttc tctggggtac cattccatgt tgccaccacc ttaaagggct ctgcaggctg
+     3961 agcctgggtt cacaccatct gttgaaaagg ccgacagctc tccatcccag ggcctccaac
+     4021 agcagtttac agagcaggga gctgggctga ggggaggtca tatacctagc ccaggtagtg
+     4081 cagtgagcca ggttcgccct cagggctcct gtaggcctaa ccccagatct tgtgtccctt
+     4141 cctcacctca ccttgaaggg agggctcttc cctgcctggg cctcagtttt ctcctctaca
+     4201 aaataaaaat gggccaagtc tgccaggcgc ggtggctcat gcctgtaatc ccaacacttt
+     4261 gggaggctga ggcgggtgga tcacctgagg tcgggagttc gataccagcc tgaccaacat
+     4321 agagaaaccc cgtctctagt aaaaatacaa aattagatgg gcgtgatgat gggcatctgt
+     4381 agtctcagct actcaggagg ttaaggcaga agaatcgctt gaacccggga gacggaggtt
+     4441 gcagtgagcc gagattatac cattgcactc tagcctgggc aaagagcgaa actccgtctc
+     4501 aaaaaaaaaa aaaaaaaagg gtcaagtcat acccccatgg ggtgagggca gccgttaggg
+     4561 gtcacatgga caataagtcc tacatcacag agcttggcaa ggtgacaaaa ccaactcttg
+     4621 ggcctccttc ccccagatat cccagaggca tccttcctgg aggaagagga tgaagacccc
+     4681 atcccaccca gcaccacgac caccattgcc acctcagaac agagcacggg ctcatgtgac
+     4741 accagccccg acaccgtctc gccctccctg agccccggct tcgaggacct gtcccatgtc
+     4801 cagcctggct ccccagccat caacggccgc agccagacag atgacgagga gatgacgggc
+     4861 gaatagccct gctgcccggt gccttgaggg ggtctcaggg cagcagcata caaggtggca
+     4921 gcgggtaacc ctgccttgtt ctgtcatcca gggctccttt gctgccccgt tctgtcaccc
+     4981 agggctccta gggggacaag gctctctccc gaggggtgtg gaattcctgg gggggtcttt
+     5041 aattctggct ccttccttcc tcagaacatc tctattctgc aagacccctc tgccatgcca
+     5101 gggcacgccc attccagctg gagtcgtggg gctgggcaca ggggaatttt tccagagctg
+     5161 agcctgacgt ctgctctgaa gaatgcttag aaggttccca gacaccagag ccagatgtcc
+     5221 cccaccaccg gtcaggacct ccttgaggtg cacaagcacg gtctcctctg agttcacccc
+     5281 agcccacccc cgcacccact aattctgctt ttcctgcccc ttgctccgta aaagtatcaa
+     5341 atactttctc cttggtatct caaggaggtt tctgagatag gtagaagtct tgagacggag
+     5401 gctggccatc cattcagccc tgagcgtgct gagttctgtg tttctctgaa tagaggtgtg
+     5461 gaacctgagg ggccagcagg cctctctgaa ggcctccatg gagcaaacgg agccacctcg
+     5521 ggaaagagtt taatggaata tttttgtacc cgatgtttac agatgctgtt gggaagttat
+     5581 caataaaaag acaccattac taaaaaggga aaagtacacc tagctgtggc ttcttcagtc
+     5641 cttaagccaa gcaacccaaa aggagggcaa gtgctggatg tggggctggg ggccctgctg
+     5701 gagggaggtg cagacaatca ggcactacag ggctagaaag agatgtggcc cttttttgga
+     5761 accccccctg gtgggagcta taacaaccca agttcccgtc accagctagg tcttccctca
+     5821 cgctgctgtc actgctcaca atactagtgt tcccatcctc atttcataat tccttctcca
+     5881 gatctcagcc ttcctccaga taggggagcc acactagatc cattccccat cagacacact
+     5941 cccagggtta cctcatcttc tgagtactta gaaattatgt tgttatgacc gggcttggtg
+     6001 gctcatgcct gtaatcccag cactttggga ggccgaggtg ggtggatcac ctgaggtcag
+     6061 gagttcgaga ccagcctggc caacatggtg aaaccccatc tctaccaaaa atataaaaat
+     6121 tagctgggtg tggtggtgta cacctgtaat cccagctact tgggaggctg aggcagaatt
+     6181 gcttgaatcc aggaggcaga ggttgcagtg agccaagatc gcaccactgc actctagcct
+     6241 gggcaaaaag accaaaactg ttgtctcaaa aaagaaaagg aaattaggtt cttaaaggca
+     6301 tcttcccaga cgtgagagtg tctgcttttg cctggtatag tagtgcctgc aaatgttcaa
+     6361 ggaaataaac aggtacccct gttaagccta taggtaactt ctcattgctc cccatcttct
+     6421 ctgtactcag cacttttttt ttttgttttg tttttgagac agcacctctc tgttgcccag
+     6481 gctggagtgc agtggctgaa tcatgggtca ctgcaatctc aaacctatgg gttcaggcaa
+     6541 tcctcctgcc tccgaagtag ctgggactgc aggtgcgcac caccacacct ggatagttca
+     6601 aaataaaact tttttttgta gagacagggt ctcactatgt cttccaggct ggtcgtgaat
+     6661 tcctgacctc aagtaatcct ccctctttga ccttccaaag tgctgggatt acaagtgtga
+     6721 accactgcac ccgccgtggc actttttttt tttttttttt tttttgagat ggagtctcac
+     6781 tctgtcaccc aggctgggtg cagtggcgtg aactcagctc actgcaacct ccacctcccg
+     6841 gattcaagcg attctcctgc ctcagcctcc tgagtagctg ggattacagg cacccgccac
+     6901 cacacctgaa aaatttttgt aatttttttt ttcttttttg agacggagtt ttgctcttgt
+     6961 tgcccaggct gtagtgcaat ggcactctct cggctaattg caacctctgc ctcccgggtt
+     7021 caagcgattc tcctgcctca gcctcctgag tagctgggat tacaggcatg cgccaccacg
+     7081 cccagctaat tttgtatttt tagtagagat gcggtttctc catgttggtc aggctcgtct
+     7141 cgaactcccg acctcaggtg atccgcacat ctcggcctcc caaagtgcag gcgtgagtca
+     7201 ccggacccag gtcccgccct ggcacttttt aaccacccac aaatctggat cctacactga
+     7261 aaagagacac tgcagtggct cacgtctgta atcccagcac tttgggaggc caaggcgggc
+     7321 ggatcacctg aggtcgcgag tttgagacca gcctgaccaa catggagaaa ccccgtctct
+     7381 actaaaaata caaaagtggc caggcatggt gtcgcacact tgtaatcgca gctactcggg
+     7441 aggctgaggc aggagaattg cttgaaccca ggaggcggag gttgcggtga gccgagatcg
+     7501 cgccattgca ctacagcctg ggcaacgaga gcgaaactcc gtctcaaaaa aaaaaaaaaa
+     7561 aaaaatcctg agtcccgctt gacacctttt gtcaggcacc accacctttc tgggcgaatg
+     7621 cggtagtacc gtctgctctc cctgctgctg tcctgaaatc cattcaggca cagcggccga
+     7681 gagctttata ataaccgatt ccaggtgtta ggtgctttcc cagccccgac tcctgcgtcc
+     7741 tggacccgca gtcctctgct taataccttt gctttattag aaaacattct cctctactcc
+     7801 gttcagctat tcgctgaggg cccgccaacc gccagcggtt gtcagtggcc tagaggcagc
+     7861 ggacgcaaac acggggagag gtgcaatcgt ctcaagtgac tcggcgggcg gggcccacaa
+     7921 ccggaagcgg gtgggcgacc ttcacccacg tgcgctgcgg cttcgttcgc cagcatccaa
+     7981 gatggcggca gggcggggcc caaggcgcgg cgcgaattgt gacgcaggcg tccggcgtgc
+     8041 tccgtgcgca agcgctttcg gcggcgatta ggtggtttcc ggttccgcta tcttcttttt
+     8101 cttcagcgag gcggccgagc tggttggtgg cggcggtcgt gcgggttcgc gccgggccga
+     8161 gagcgggttg ggggctgcgg gaggctgcag gggcctgggc ggcagaagag gcggccctga
+     8221 gctggctcat gcgggccagt ctcggcaggg tggctgggca gggctcgcga ggccacggct
+     8281 cggagcccag accggggccc aggaggcgag cgccgttttg gagaggagcc tgcctgctct
+     8341 gcctgccagc gtgaccccac gaggcctcgg gcgggaagag gtcctcgggg cagatccgag
+     8401 ttaatgagag aggggtattg agcgtgtagc gttaactctg ccagtcactg cgtcagtcgc
+     8461 tttggaaata ctaaatttct cgagctgagt cttcatacct ggctccatta ctacgtctgt
+     8521 aaggaggagc tggtggtagt gtctgctttt tagacttttc tttagactat ttgtattttt
+     8581 ttcagatgga gtcttgctct gtcgcctaag ctggagttca gtggtgcggt ctcggctcac
+     8641 tgcaatctcc acctcccggg ctcgagcgat tcttctgcct cagcctcccg agtagctggg
+     8701 attataggcg cctgccacca cgcccagttg atttttgtag ttttagtaga gacggagttt
+     8761 caccatgtta gccaggctca tcttgaactc ttgacctcaa atgatccgtc tgcctcggcc
+     8821 ttccaaagtg ctgggattac aggcatgagc ccctgcgccc ggtcgattct ttgtcttttt
+     8881 aagtcaactt ttatatgtga acaatgcttg gcaggtggtt ggtagatact aagtgatgtt
+     8941 cgtggtttgg ggtcaaggca agaagtgggg tctggagagt tttggtgtaa ttgagaagga
+     9001 agctaagagt gttgggtgct ccagcttgga gttagagagg agagaggctg cgacaggaag
+     9061 gcatgtgtgt tgtaggggat ggcttcccat ccaggctggc agcaggagca gcctgtgcag
+     9121 atcaggacct ggctgccgtg gaagagggtg ggaccgcctt cagggaagat ggatctagca
+     9181 agatgatgcc aaagggtact tattccatca ggagatactg acgagtcctt ccgccgctaa
+     9241 acctaaggag aataaccaca gtctgtgttc ctgaagagca cccgtgcggt caggagggtg
+     9301 gaggacatgt ggtctttagt tccaggacat gtttagacta caggccaggg tgtgtgagaa
+     9361 gcctagcagg gccaggcttg gaggagtgaa aggaagacag gtactggggc aggaccagtt
+     9421 ggacttggtg caggcaaagg gatagcaact gtggtgtagg cacctgagct tgtgctactc
+     9481 aggcatgcat tgctcaccag tctatcctgc ctcccttcct cctgcagacg caaacatgca
+     9541 gatctttgtg aagaccctca ctggcaaaac catcaccctt gaggtcgagc ccagtgacac
+     9601 cattgagaat gtcaaagcca aaattcaaga caaggagggt gagtagggct gggtgtgggg
+     9661 gctctggctg tgaactggga gtccctctct gcccagggga gtctcagtcc tgtgtgggtt
+     9721 gtgctgactt tagatctgtt ttgcccttgc ttctccatgt gatctgaaga acgtttgtta
+     9781 tcttctacct cagttggcct tttgagaaac tgggggtagt gctggagctc ccctgcagag
+     9841 gacactgcca gtaatatggt ccgcagagcc tctaactgag cctccctccc cctcaggtat
+     9901 cccacctgac cagcagcgtc tgatatttgc cggcaaacag ctggaggatg gccgcactct
+     9961 ctcagactac aacatccaga aaggtaccgg ggttggggtt gctgggcagg gacccaagat
+    10021 ccccaggtcc taggaaagga gcattgatgg cctcaggggt tggggagcag ttcaaatgac
+    10081 ttgtgttttg tttaaaataa tgggactggg cacagtggct catgcctgta atcccggcac
+    10141 tttgggaggc ttaggcgggt ggatcacctg aggtcaggag ttcaagacca gcctggacaa
+    10201 cgtggtgaaa tcccgtttct attaaaaata caaaaatcag ctgggtgcag tggctcaggc
+    10261 ctgtaatccc agcacttcgg gaggctgagg cgggcagatc acaaggtcaa gagattgaga
+    10321 tcatcatgac caacatggtg aaatcccatc tctactaaaa atacaaaaat tagctaggca
+    10381 tggtggtgcg tgcctgtagt cccagctact caggaggctg aggaaggaga attgcttgaa
+    10441 ctcgggagac aaaaaaaaaa agtcataatg tgaatttttt tatcactgca ataaggaaat
+    10501 tagtgtcact tgtgggagcg acaagaattc agtgtccttt ttttgtgaga cagagtctta
+    10561 ctctgtcacc caggctggag tgcagtgacg cgatctcact gtgacctccg tctcccgggt
+    10621 tcaagcgatt cccctgcctc agcctcccga gtagctggga ttacaggcac ccgccaccac
+    10681 gcccagctaa ttttttttgt atttttagta gagacagggt ttcactacgt tggccaggct
+    10741 ggtctcttaa agtgctagga ttacaggcgt gagccatggt gccccgccta gacttcagtg
+    10801 tctgaccttg cctgaaccac ttagaggtcg gcttccatgt tagaaaccca gatggatgcc
+    10861 tcagttggca tgtgtcagtc tcagactccc cccagggctc gtggtcagtg ctgagatgga
+    10921 gatttcctgg ggcaggctgg ctgggacagt gtatcttcca cacgtagaac actcggggga
+    10981 tcccgacttg gtgtccccat cacacttgag aaagcagcag actataggcc ctggagggtc
+    11041 ctgcccctgt gactgaggag ccagggctgg gctcagtcgc cgtccttctg gctgtctcct
+    11101 gcagagtcca ccctgcacct ggtgttgcgc ctgcgaggtg gcattattga gccttctctc
+    11161 cgccagcttg cccagaaata caactgcgac aagatgatct gccgcaagta tgtgtgctcc
+    11221 gatgcttggg gggctgtggg ggctgccgga gtcggggtat gccctcaccc acccctcctg
+    11281 tctctgtgca ggtgctatgc tcgccttcac cctcgtgctg tcaactgccg caagaagaag
+    11341 tgtggtcaca ccaacaacct gcgtcccaag aagaaggtca aataaggtgg ttctttcctt
+    11401 gaagggcagc ctcctgccca ggccccgtgg ccctggagcc tcaataaagt gtccctttca
+    11461 ttgactggag cagcaattgg tgtcctcatg gctgatctgt ccagggaggt ggctgaagag
+    11521 tgggcatctc ccttagggac tctactcagc actccattct gtgccacctg tggggtcttc
+    11581 tgtcctagat tctgtcacat cggcattggt ccctgcccta tgcccctgac tctggatttg
+    11641 tcatctgtaa aactggagta aaaacctcag tcgtgtaatt ggtgggactg aggatcagtt
+    11701 ttgtcattgc tgggatcctg tcaggcactt tgaggtgtcc ctcaggcctt ggccctgaag
+    11761 tgtctaggtg tgtggagatg ggtagaaaat taggtacacc caatggtgta gaacgttgat
+    11821 tctcaaattt ttttatttta tacaaatggg gtctcactat gttgtccagg ctggtcttga
+    11881 actcctgggc tcaagccatc cgcccatctc agcccctcaa agtgttggga ttacaagcaa
+    11941 gaactgccat gcctgaccca gttctcagtt ttttgtttgt ttgtttgttt gtttgttttg
+    12001 agacggagtc ttgctctgtc gcccaggctg gagtgcagtg gcgcagtctc ggcttactac
+    12061 aacctctgcc tccggggttc acatccttct cctgcctcag cctcccgagt agctgggact
+    12121 acaggtgccc gccacaactc ctggctaatt ttttgtattt ttagtagaga cggggtttca
+    12181 ctgggttagc caggttggtc tcgatctcct gaccttgtga tccattcgcc ttggcctccc
+    12241 agaatgctgg tattacaggc gtgagccagc acgcctggcc cagttactca gttttgaatc
+    12301 tgaggccgtg acatcactca tggtctgcag tcagtgctct gcccctgagc tgtaccctct
+    12361 cctatgataa tcactcttaa gaagggcaac ccttggtgtt ttccccttaa ggtcacccag
+    12421 gctggaatgc agtggtgtgg tcatggctcc ctgtaccctg gaactcaggc ttgggtgatc
+    12481 ctctctcctt tgcctccgaa gtagccagga ctacaggtgt gcacccacca ccacactcag
+    12541 ataattgctt tggtgttttt aaagcttgta atgatcagta ggctgaggtg ggcaaatcat
+    12601 aaggtcaaga gttttttaga tggggtgagc acagaccaat tcctgtttta tttactgatt
+    12661 taaaattttg agacagtctc actgtcaccc aggttggggt gcagtggtag gatcatagct
+    12721 tgctgcagcc ttgatctccc aggatcttgc ctcagcctcc cgagtagctg ggactgcatg
+    12781 cttgtgccac cacactcggt taatattttg tagagatggg gtcttgctat gttgcccagg
+    12841 ctggcttcaa actcctgaac ttaaaagcct cctgtttagt tttggttttt tatcactttt
+    12901 tttttttttt tttgagatgg agccttgctc ccatcgtgca ggctggagtg cggtggcgca
+    12961 gtctcggctc actgcagctt ctgcctctcg ggttcaagcg attctccttt ctcagcctct
+    13021 tgagtagctg gaattaccag tgtgcgccac caccaccacg cctggctagt ttttctgttt
+    13081 ttagtagaga cagggttttg ctatgttggc caggctggtc ttgaactact gacctcttgt
+    13141 gatctacctg tcttggcctt ccaaagtgct aggattacaa gcgtaagcca cagcgcctgg
+    13201 ccttgctaca tttttttttt tttttttttt tttacagaca tggtctcgct atgttgccca
+    13261 gaatggtttt gcactgggtc caagcagttc tgccgcagcc tcccaaagtg ctgggattac
+    13321 aggggtgagg caccttgctg gcccctgttt tgattagggt gcagtgctgg tgaagccggt
+    13381 gcacgaggcc agtgatgcat cctaatgagg ggtggagttg gcgggacttc ctgggccagt
+    13441 ttggggactt tcacaaaaga cccccatgac tcagggtttt gagttcttaa ctgatcgaat
+    13501 gaaggattca aaattaacca ctccaagggg ggattgaagg aagaaccact cttaatggac
+    13561 aaaaagaaag aaaggggagg gagtaacagg gatatgagct ctagccgccc aagctagcaa
+    13621 tggcaaccct tctgggtccc cttccagcat gtggaagctt tcctttcgct tcattcaata
+    13681 aacagctgct gctcactctc ctggtccgtg gactcttttt gaactgttaa cactccccgc
+    13741 aaaggtccgc agcttcattc ttcaaagtta gcgagaccag gaacc
+//
+
