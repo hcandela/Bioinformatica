@@ -101,3 +101,10 @@ def plot_nw(A,B, dicc):
   opt_path_nws(n_rows - 1, n_cols - 1, '', '', p_matriz ,A, B, ax, arrowprops, dicc)
   plt.gca().set_aspect('auto')
   plt.show()
+
+  ### Nussinov
+  def nussinov_tabula(matrix, seq):
+    row_names = [i for i in seq]
+    df = pd.DataFrame(matrix,index=row_names,columns=row_names)
+    table_html = df.to_html()
+    return HTML(table_html)
