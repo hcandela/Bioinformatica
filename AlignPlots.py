@@ -4,13 +4,13 @@ import numpy as np
 from IPython.core.display import HTML,display
 import pandas as pd
 
-#### Algoritmo Needleman-Wunsch-Sellers
 def tabula(matrix, seq1, seq2):
     row_names = [i for i in '-'+seq1]
     col_names = [i for i in '-'+seq2]
     df = pd.DataFrame(matrix,index=row_names,columns=col_names)
     table_html = df.to_html()
     return HTML(table_html)
+#### Algoritmo Needleman-Wunsch-Sellers
 
 def opt_path_nws(x,y,alinA, alinB, p_matriz, A, B, ax, arrowprops, dicc):
   ax.grid(True, which='minor')
