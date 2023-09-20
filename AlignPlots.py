@@ -103,8 +103,8 @@ def plot_nw(A,B, dicc):
   plt.show()
 
   ### Nussinov
-  def nussinov_tabula(matrix, seq):
-    row_names = [i for i in seq]
-    df = pd.DataFrame(matrix,index=row_names,columns=row_names)
-    table_html = df.to_html()
-    return HTML(table_html)
+def nussinov_tabula(matrix, seq):
+  row_names = [i for i in seq]
+  df = pd.DataFrame(matrix,index=row_names,columns=row_names)
+  table_html = df.to_html()
+  return HTML(table_html)
