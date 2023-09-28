@@ -698,3 +698,30 @@ def k_band_global(A,B,k,mp,gap):
     a,b = vuelta_atras_kb_global(A,B,m, k, mp, gap)
     print(a)
     print(b)
+
+###DISTANCIA DE LEVENSHTEIN
+def levenshteinDistance(seqs, dicc):
+  lista = list()
+  mn = [len(seq) for seq in seqs].index(min([len(seq) for seq in seqs]))
+  t = seqs.pop(mn)
+  s = seqs[0]
+
+  n = len(s)
+  m = len(t)
+
+  previa = [j*dicc['GAP'] for j in range(m+1)]
+  actual = [0 for j in range(m+1)]
+
+  for i in range(1, n+1):
+    actual[0] = i*dicc['GAP']
+    for j in range(1, m+1):
+      if s[i-1] == t[j-1]:
+        actual[j] = previa[j-1] + dicc['MATCH']
+      else:
+        diagonal = dicc['MISMATCH'] + previa[j-1]
+        izq = dicc['GAP'] + previa[j]
+        arriba = dicc['GAP'] + actual[j-1]
+        actual[j] = min(izq, arriba, diagonal)
+    previa = actual.copy()
+
+  return actual[m]
