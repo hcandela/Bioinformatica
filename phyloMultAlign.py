@@ -77,7 +77,7 @@ def vuelta_atras_NWS(matriz, i, j, A, B, gap):
 
   return alin_A, alin_B
 
-def NWSellers(A, B, gap, mismatch):
+def NWSFengDoolittle(A, B, gap, mismatch):
   n_cols = len(A) + 1
   n_rows = len(B) + 1
   m = inicializacion_NWS(n_rows, n_cols, gap)
