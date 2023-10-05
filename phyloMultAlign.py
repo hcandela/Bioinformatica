@@ -33,6 +33,60 @@ def levenshteinDistance(seqs, dicc):
 
   return actual[m]
 
+def inicializacion_NWS(n_rows,n_cols,gap):
+  matriz = np.full([n_rows, n_cols], 0)
+  for i in range(1, n_rows):
+    matriz[i,0] = matriz[i-1, 0] + gap
+  for j in range(1, n_cols):
+    matriz[0,j] = matriz[0, j-1] + gap
+  return matriz
+
+def rellenado_NWS(matriz, A, B, n_rows, n_cols, gap, mismatch):
+  for i in range(1, n_rows):
+    for j in range(1, n_cols):
+      izquierda = matriz[i,j-1] + gap
+      arriba = matriz[i-1, j] + gap
+      if A[j-1] == B[i-1] or A[j-1] == 'X' or B[i-1] == 'X':
+        diagonal = matriz[i-1, j-1]
+      else:
+        diagonal = matriz[i-1, j-1] + mismatch
+
+      matriz[i,j] = min([arriba, izquierda, diagonal])
+
+  return matriz
+
+def vuelta_atras_NWS(matriz, i, j, A, B, gap):
+  alin_A = str()
+  alin_B = str()
+
+  while i != 0 or j != 0:
+
+    if matriz[i,j] == matriz[i,j-1] + gap:      #desplazamiento en horizontal
+      alin_A = A[j-1] + alin_A
+      alin_B = "-" + alin_B
+      j = j - 1
+    elif matriz[i,j] == matriz[i-1, j] + gap:   #desplazamiento en vertical
+      alin_A = "-" + alin_A
+      alin_B = B[i-1] + alin_B
+      i = i - 1
+    else:                                       #desplazamiento en diagonal
+      alin_A = A[j-1] + alin_A
+      alin_B = B[i-1] + alin_B
+      i = i - 1
+      j = j - 1
+
+  return alin_A, alin_B
+
+def NWSellers(A, B, gap, mismatch):
+  n_cols = len(A) + 1
+  n_rows = len(B) + 1
+  m = inicializacion_NWS(n_rows, n_cols, gap)
+  m = rellenado_NWS(m,A,B,n_rows, n_cols, gap, mismatch)
+  i = n_rows - 1
+  j = n_cols - 1
+  a, b = vuelta_atras_NWS(m,i,j,A, B, gap)
+  return a,b
+
 ### NOTE: Fitch&Margoliash algorithm
 def min_val(M1):
     filas, columnas = M1.shape
