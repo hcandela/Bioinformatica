@@ -84,8 +84,9 @@ def NWSFengDoolittle(A, B, gap, mismatch):
   m = rellenado_NWS(m,A,B,n_rows, n_cols, gap, mismatch)
   i = n_rows - 1
   j = n_cols - 1
+  dist = m[i,j]
   a, b = vuelta_atras_NWS(m,i,j,A, B, gap)
-  return a,b
+  return dist,a,b
 
 ### NOTE: Fitch&Margoliash algorithm
 def min_val(M1):
