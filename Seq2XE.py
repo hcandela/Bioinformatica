@@ -25,9 +25,9 @@ def m_sust_nt(id=0.55, ps=0.25, nt='ACGT'):
 
   return m_sust
 
-def m_sust_DL(nt='ACGT-'):
-  nt_list = list(nt)
-  m_sust = Array(nt, dims=2)
+def m_sust_DL(chars='ACGT-'):
+  nt_list = list(chars)
+  m_sust = Array(chars, dims=2)
   for nt1 in nt_list:
       for nt2 in nt_list:
         if nt1 == nt2:
