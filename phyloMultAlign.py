@@ -229,3 +229,133 @@ def UPGMA(M2, seqs, indices, alturas):
     fusiona_etiquetas(seqs, indices, alturas, x, y, matriz)
     matriz = fusiona_matriz(matriz_original, matriz, x, y, indices)
   return seqs
+
+#NOTE: Suma de los pares
+def sPares(secuencias:dict, matrix:Array, gap:int):
+  ids = [k for k,v in secuencias.items()]
+  p = 0
+  for i in range(0, len(ids)):
+    for j in range(i+1, len(ids)):
+      for n in range(len(secuencias[ids[i]])):
+        n1 = secuencias[ids[i]][n]
+        n2 = secuencias[ids[j]][n]
+        if n1 == '-' and n2 == '-':
+          p += 0
+        elif (n1 == '-' and n2 != n1) or (n2 == '-' and n2 != n1):
+          p += gap
+        else:
+          p += matrix[n1][n2]
+  return p
+
+def sParesLev(secuencias:dict, matrix:Array):
+  ids = [k for k,v in secuencias.items()]
+  p = 0
+  for i in range(0, len(ids)):
+    for j in range(i+1, len(ids)):
+      for n in range(len(secuencias[ids[i]])):
+        n1 = secuencias[ids[i]][n]
+        n2 = secuencias[ids[j]][n]
+        p += matrix[n1][n2]
+  return p
+
+
+#NOTE: Alineamiento a un perfil
+from collections import Counter
+up_arrow = "\u2191"
+left_arrow = "\u2190"
+up_left_arrow = "\u2196"
+
+def makeProfile(secuencias:dict):
+  max_length = max(len(seq) for seq in secuencias.values())
+  array = np.empty((1, len(secuencias), max_length), dtype='U1')
+  for i, seq in enumerate(secuencias.values()):
+    array[0, i, :len(seq)] = list(seq)
+  sequence_list = array.tolist()
+  position_frequencies = []
+
+  total_sequences = len(secuencias)
+  for i in range(max_length):
+      position = [seq[i] for seq in sequence_list[0]]
+      position_counts = {
+          'A': position.count('A') / total_sequences,
+          'C': position.count('C') / total_sequences,
+          'G': position.count('G') / total_sequences,
+          'T': position.count('T') / total_sequences,
+          '-': position.count('-') / total_sequences,
+      }
+      position_frequencies.append(position_counts)
+
+  return position_frequencies
+
+def seqToProfile(p:list, alignment:list, s:str, pen:dict, mat:Array):
+  n_rows = len(s) + 1
+  n_cols = len(p) + 1
+  matrizS, matrizT = initStoP(n_rows,n_cols,pen['GAP'],p)
+  matrizS, matrizT = fillitStoP(matrizS, matrizT, s, p, n_rows, n_cols, pen, mat)
+  new_alignment = traceBackStoP(matrizT, alignment, s, n_rows, n_cols)
+  return new_alignment, matrizS, matrizT
+
+
+def initStoP(n_rows,n_cols,gap,p):
+  matrizS = np.full([n_rows, n_cols], 0, dtype=float)
+  matrizT = np.full([n_rows, n_cols], '-', dtype=str)
+  global up_arrow
+  global left_arrow
+  for i in range(1, n_rows):
+    matrizS[i,0] = matrizS[i-1, 0] + gap
+    matrizT[i,0] = up_arrow
+  for j in range(1, n_cols):
+    matrizS[0,j] = matrizS[0, j-1] + gap*(1-p[j-1]['-'])
+    matrizT[0,j] = left_arrow
+  return matrizS, matrizT
+
+def fillitStoP(matrizS, matrizT, s, p, n_rows, n_cols,pen, mat):
+  global up_arrow
+  global left_arrow
+  global up_left_arrow
+  eq = {0:up_arrow,1:left_arrow,2:up_left_arrow}
+  for i in range(1, n_rows):
+    for j in range(1, n_cols):
+      izquierda = matrizS[i,j-1] + pen['GAP']*(1-p[j-1]['-'])
+      arriba = matrizS[i-1, j] + pen['GAP']
+      b = s[i-1]
+      pd = 0
+      for a, f in p[j-1].items():
+        pd += mat[b,a]*f
+      diagonal = matrizS[i-1,j-1] + pd
+      score = min([arriba, izquierda, diagonal])
+
+      matrizS[i,j] = score
+      matrizT[i,j] = eq[[arriba, izquierda, diagonal].index(score)]
+
+  return matrizS, matrizT
+
+def traceBackStoP(matrizT, alignment, s, i, j):
+  i = i - 1
+  j = j - 1
+  new_al = [str() for _ in alignment]
+  alin_B = str()
+  global up_arrow
+  global left_arrow
+  global up_left_arrow
+  eq = {0:up_arrow,1:left_arrow,2:up_left_arrow}
+  while i != 0 or j != 0:
+    if matrizT[i,j] == left_arrow:      #desplazamiento en horizontal
+      for k in  range(len(alignment)):
+        new_al[k] = alignment[k][j-1] + new_al[k]
+      alin_B = '-' + alin_B
+      j = j - 1
+    elif matrizT[i,j] == up_arrow:   #desplazamiento en vertical
+      for k in  range(len(alignment)):
+        new_al[k] = '-' + new_al[k]
+      alin_B = s[i-1] + alin_B
+      i = i - 1
+    else:                                       #desplazamiento en diagonal
+      for k in  range(len(alignment)):
+        new_al[k] =  alignment[k][j-1] + new_al[k]
+      alin_B = s[i-1] + alin_B
+      i = i - 1
+      j = j - 1
+
+  new_al.append(alin_B)
+  return new_al
