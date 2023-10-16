@@ -266,6 +266,11 @@ left_arrow = "\u2190"
 up_left_arrow = "\u2196"
 
 def makeProfile(secuencias:dict):
+  '''
+  Entrada: 
+    secuencias: Diccionario de secuencias (id:seq)
+  Salida: perfil, lista por posición de diccionarios que contienen la frecuencia para cada caracter
+  '''
   max_length = max(len(seq) for seq in secuencias.values())
   array = np.empty((1, len(secuencias), max_length), dtype='U1')
   for i, seq in enumerate(secuencias.values()):
@@ -288,15 +293,38 @@ def makeProfile(secuencias:dict):
   return position_frequencies
 
 def seqToProfile(p:list, alignment:list, s:str, pen:dict, mat:Array):
+  '''
+  Entrada:
+    p: perfil
+    alignment: alineamiento multiple que da lugar al perfil
+    s: secuencia a alinear
+    pen: diccionario de penalizaciones
+    mat: matriz de sustitucion
+  Salida:
+    new_alignment: lista con el nuevo alineamiento
+    alin_B: nueva secuecia alineada
+    matrizS: matriz de puntuación del alineamiento
+    matrizT: matriz de la vuelta atrás
+  '''
   n_rows = len(s) + 1
   n_cols = len(p) + 1
   matrizS, matrizT = initStoP(n_rows,n_cols,pen['GAP'],p)
   matrizS, matrizT = fillitStoP(matrizS, matrizT, s, p, n_rows, n_cols, pen, mat)
-  new_alignment = traceBackStoP(matrizT, alignment, s, n_rows, n_cols)
-  return new_alignment, matrizS, matrizT
+  new_alignment, alin_B = traceBackStoP(matrizT, alignment, s, n_rows, n_cols)
+  return new_alignment, alin_B, matrizS, matrizT
 
 
 def initStoP(n_rows,n_cols,gap,p):
+  '''
+  Entrada:
+    n_rows: longitud de la secuencia + 1
+    n_cols: longitud del alineamiento + 1
+    gap: penalización por hueco
+    p: perfil del alineamiento
+  Devuelve:
+    matrizS: matriz de puntuación del alineamiento inicializadas
+    matrizT: matriz de la vuelta atrás inicializadas
+  '''
   matrizS = np.full([n_rows, n_cols], 0, dtype=float)
   matrizT = np.full([n_rows, n_cols], '-', dtype=str)
   global up_arrow
@@ -305,11 +333,27 @@ def initStoP(n_rows,n_cols,gap,p):
     matrizS[i,0] = matrizS[i-1, 0] + gap
     matrizT[i,0] = up_arrow
   for j in range(1, n_cols):
+    # Inicializar la primera fila consiste en restar la proporción de hueco a la proporción de letra 
+    # en esa posición y multiplicarlo por el valor del hueco.
     matrizS[0,j] = matrizS[0, j-1] + gap*(1-p[j-1]['-'])
     matrizT[0,j] = left_arrow
   return matrizS, matrizT
 
 def fillitStoP(matrizS, matrizT, s, p, n_rows, n_cols,pen, mat):
+  '''
+  Entrada:
+    matrizS: matriz de puntuaciones incializada
+    matrizT: matriz de vuelta atrás inicializada
+    s: secuencia a alinear
+    p: perfil
+    n_rows: longitud de la secuencia + 1
+    n_cols: longitud del alineamiento + 1
+    pen: penalización por hueco
+    p: perfil del alineamiento
+  Devuelve:
+    matrizS: matriz de puntuación del alineamiento completa
+    matrizT: matriz de la vuelta atrás completa
+  '''
   global up_arrow
   global left_arrow
   global up_left_arrow
@@ -330,9 +374,20 @@ def fillitStoP(matrizS, matrizT, s, p, n_rows, n_cols,pen, mat):
 
   return matrizS, matrizT
 
-def traceBackStoP(matrizT, alignment, s, i, j):
-  i = i - 1
-  j = j - 1
+def traceBackStoP(matrizT, alignment, s, n_rows, n_cols):
+  '''
+  Entrada:
+    matrizT: matriz de vuelta atrás completa
+    alignment: alineamiento multiple previo
+    s: secuencia a alinear
+    n_rows: longitud de la secuencia + 1
+    n_cols: longitud del alineamiento + 1
+  Devuelve:
+    new_al: nuevo alineamiento multiple
+    alin_B: nueva secuencia alineada
+  '''
+  i = n_rows - 1
+  j = n_cols - 1
   new_al = [str() for _ in alignment]
   alin_B = str()
   global up_arrow
@@ -357,5 +412,5 @@ def traceBackStoP(matrizT, alignment, s, i, j):
       i = i - 1
       j = j - 1
 
-  new_al.append(alin_B)
-  return new_al
+  #new_al.append(alin_B)
+  return new_al, alin_B
