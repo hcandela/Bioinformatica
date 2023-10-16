@@ -247,14 +247,14 @@ def sPares(secuencias:dict, matrix:Array, gap:int):
           p += matrix[n1][n2]
   return p
 
-def sParesLev(secuencias:dict, matrix:Array):
-  ids = [k for k,v in secuencias.items()]
+def sumaPares(secuencias:list, matrix:Array):
+  #ids = [k for k,v in secuencias.items()]
   p = 0
-  for i in range(0, len(ids)):
-    for j in range(i+1, len(ids)):
-      for n in range(len(secuencias[ids[i]])):
-        n1 = secuencias[ids[i]][n]
-        n2 = secuencias[ids[j]][n]
+  for i in range(0, len(secuencias)):
+    for j in range(i+1, len(secuencias)):
+      for n in range(len(secuencias[secuencias[i]])):
+        n1 = secuencias[secuencias[i]][n]
+        n2 = secuencias[secuencias[j]][n]
         p += matrix[n1][n2]
   return p
 
