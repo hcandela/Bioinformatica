@@ -265,15 +265,16 @@ up_arrow = "\u2191"
 left_arrow = "\u2190"
 up_left_arrow = "\u2196"
 
-def makeProfile(secuencias:dict):
+def makeProfile(secuencias:list):
   '''
   Entrada: 
     secuencias: Diccionario de secuencias (id:seq)
-  Salida: perfil, lista por posición de diccionarios que contienen la frecuencia para cada caracter
+  Salida: 
+    perfil, lista por posición de diccionarios que contienen la frecuencia para cada caracter
   '''
-  max_length = max(len(seq) for seq in secuencias.values())
+  max_length = max(len(seq) for seq in secuencias)
   array = np.empty((1, len(secuencias), max_length), dtype='U1')
-  for i, seq in enumerate(secuencias.values()):
+  for i, seq in enumerate(secuencias):
     array[0, i, :len(seq)] = list(seq)
   sequence_list = array.tolist()
   position_frequencies = []
