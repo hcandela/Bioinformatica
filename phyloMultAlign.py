@@ -252,7 +252,7 @@ def sumaPares(secuencias:list, matrix:Array):
   p = 0
   for i in range(0, len(secuencias)):
     for j in range(i+1, len(secuencias)):
-      for n in range(len(secuencias[secuencias[i]])):
+      for n in range(len(secuencias[i])):
         n1 = secuencias[i][n]
         n2 = secuencias[j][n]
         p += matrix[n1][n2]
